@@ -15,6 +15,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.atapp.R;
+import com.example.atapp.RecordAdapter;
 import com.example.atapp.model.Worker;
 import com.example.atapp.sqliteAccess.GetDatabase;
 
