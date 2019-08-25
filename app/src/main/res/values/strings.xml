@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AtApp</string>
+    <string name="addAWorker">Add a worker</string>
+    <string name="workerId">ID</string>
+    <string name="worker_name">Full Name</string>
+    <string name="addWorkerBtn">Add</string>
+    <string name="select_a_worker">Select a Worker:</string>
+    <string name="removalMessage">Remove </string>
+</resources>
