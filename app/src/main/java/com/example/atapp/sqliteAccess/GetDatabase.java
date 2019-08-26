@@ -37,7 +37,7 @@ public class GetDatabase {
         this.sqLiteOpenHelper = new SQLiteHelper(context, newName, newId);
     }
 
-    public void open() {
+    private void open() {
        db = sqLiteOpenHelper.getWritableDatabase();
     }
 
@@ -65,11 +65,11 @@ public class GetDatabase {
 
         if (cursor.moveToFirst()) {
 
-            while(cursor.moveToNext()){
+            do{
 
                 String name = cursor.getString(cursor.getColumnIndex(NAME));
                 namesArray.add(name);
-            }
+            }while(cursor.moveToNext());
         }
         cursor.close();
         db.close();
